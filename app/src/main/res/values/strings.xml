@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">App1 aula 07out</string>
+    <string name="ola">OLA</string>
+    <string name="resultado_text_view">Resultado:</string>
+    <string name="texto_saudacao_eng_inf">Olá Eng Informática!</string>
+    <string name="calcular">calcular</string>
+    <string name="introduza_classifica_o">Introduza Classificação</string>
+    <string name="texto_num_notas">%d nota!</string>
+
+    <plurals name="texto_numero_notas">
+        <!--
+            comentários aqui
+        -->
+        <item quantity="one">%1$d nota!</item>
+        <item quantity="other">%1$d notas!</item>
+    </plurals>
+
+    <string name="texto_inicial_media"> media</string>
+    <string name="texto_resultado_media"> media: %1$f</string>
+    <string name="texto_media">texto_media</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_ola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ola" />
+
+    <LinearLayout
+        android:id="@+id/secundaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/valor_text_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/introduza_classifica_o"
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/calcular_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado_text_view" />
+
+    <TextView
+        android:id="@+id/media_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_media" />
+
+</LinearLayout>
